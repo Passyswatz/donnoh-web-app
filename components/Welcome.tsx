@@ -4,23 +4,23 @@ import Image from 'next/image'
 const Welcome = () => {
   return (
     <div className="bg-white h-[2296px] pt-20 pl-20 pr-20 w-full">
-        <div className="flex flex-row flex-wrap">
+        <div className="flex flex-row justify-center item-center flex-wrap">
             
               <Image 
             src="/med.jpg"
             alt='logo'
             width={610}
             height={417}
-            className='object-contain'/>
+            className='w-full'/>
 
             <div className=' pl-10 pt-20  '>
-                <h2 className='font-montserrat font-semibold text-left text-4xl max-w-[380px]  '>welcome to DonoH</h2>
+                <h2 className='font-montserrat font-semibold text-left text-4xl   '>welcome to DonoH</h2>
 
-                <p className=' font-montserrat text-left text-[#111010] font-semibold max-w-[440px]'> DonoH is a Digital non-profit organization established to render
+                <p className=' font-montserrat text-left text-[#111010] font-semibold '> DonoH is a Digital non-profit organization established to render
                      the service of enabling patients to get
             adequate help from good-willed individuals and organizations who make generous
              donations to assist them.</p>
-            </div>
+            </div> 
         </div>
 
         <div className="flex  flex-row-reverse flex-wrap justify-around  pt-10">
