@@ -60,28 +60,28 @@ const Footer = () => {
 
   <div className="flex flex-wrap gap-40 text-center justify-around items-center pt-20 bg-[#00B4D8]">
     <div className="gap-5">
-<h2 className="text-white">navigation</h2>
-<p>home</p>
-<p>about us</p>
-<p>contact us</p>
-<p>blog</p>
-<p>donate</p>
+<h2 className="text-white">NAVIGATION</h2>
+<p>Home</p>
+<p>About us</p>
+<p>Contact us</p>
+<p>Blog</p>
+<p>Donate</p>
     </div>
     <div className="gap-5">
-      <h2>what we do</h2>
+      <h2 className="text-white">What We DO</h2>
      
-<p>home</p>
-<p>about us</p>
-<p>contact us</p>
-<p>blog</p>
-<p>donate</p>
+<p>Supporting the sick</p>
+<p>Strengthening Advocacy</p>
+<p>Sharing Information</p>
+<p>Building Leadershi</p>
+<p>Shining a Light</p>
         </div>
         <div className="gap-5">
-      <h2>legal</h2>
+      <h2 className="text-white">Legal</h2>
  
-<p>home</p>
-<p>about us</p>
-<p>contact us</p>
+<p>general info</p>
+<p>privacy policy</p>
+<p>terms of service</p>
 <p>blog</p>
 <p>donate</p>
         </div>

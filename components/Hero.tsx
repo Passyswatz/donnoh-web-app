@@ -26,11 +26,11 @@ const Hero = () => {
 
 
 <div className="pt-20 absolute " >
-      <h1 className='font-montserrat font-semibold   text-6xl  '>
+      <h1 className='font-montserrat font-semibold pl-10  text-6xl  '>
           It is through<br/> <span className='text-blue-500'>Giving</span> <br/>that we live.
         </h1>
      
-        <h2 className='font-montserrat font-semibold  text-6xl'>
+        <h2 className='font-montserrat font-semibold pl-10 text-6xl'>
           <span className='text-blue-500'>Save</span> a Life Today
         </h2>
       </div>
@@ -49,19 +49,19 @@ const Hero = () => {
   handleClick={signUp}/>
       </div>
 
-        <div className="bg-[#00B4D8] h-[144px] flex justify-around p-12 m-auto text-white text-center font-montserrat" >
+        <div className="bg-[#00B4D8] w-full h-auto flex justify-around p-12 m-auto text-white text-center font-montserrat" >
 
-          <div className="">
+          <div className="p-2 pt-5">
                 <h3>200H+</h3>
                 <p>HUMANS IMPACTED</p>
           </div>
 
-          <div className="">
+          <div className="p-2 pt-5">
                 <h3>50+</h3>
                 <p>ASSISTED</p>
           </div>
 
-          <div className="">
+          <div className="p-2 pt-5">
                 <h3>8K+</h3>
                 <p>COLLABORATIONS</p>
           </div>
