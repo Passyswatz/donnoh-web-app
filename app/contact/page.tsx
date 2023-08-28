@@ -3,9 +3,9 @@ import React from 'react'
 export default function page() {
   return (
     <main className='h-auto w-full  '>
-        <div className='flex flex-col justify-center item-center p-20'>
+        <div className='flex  justify-center item-center p-20'>
             <h1 className='font-montserrat font-semibold text-5xl'>Contact us</h1>
-            <p className='font-montserrat '>Any question or remarks? Just write us a message</p>
+            <p className='font-montserrat '>Any question or remarks? Just write us a message.</p>
         </div>
 
         <div className='flex justify-center item center'>
