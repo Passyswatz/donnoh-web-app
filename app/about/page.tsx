@@ -15,7 +15,7 @@ export default function page() {
 
         <div className="">
         <Image 
-          src="/Mask group (9).png"
+          src="/mask9.png"
           alt='logo'
           width={240}
           height={280}
@@ -26,7 +26,7 @@ export default function page() {
         
         <div className="">
         <Image 
-          src="/Mask group (1).png"
+          src="/mask1.png"
           alt='logo'
           width={240}
           height={280}
@@ -37,7 +37,7 @@ export default function page() {
         
         <div className="">
         <Image 
-          src="/Mask group (2).png"
+          src="/mask2.png"
           alt='logo'
           width={240}
           height={280}
@@ -49,7 +49,7 @@ export default function page() {
 
         <div className="">
         <Image 
-          src="/Mask group (3).png"
+          src="/mask3.png"
           alt='logo'
           width={240}
           height={280}

@@ -75,7 +75,7 @@ const Welcome = () => {
 
     <div className=''>
     <Image 
-          src="/smileblack copy.jpg"
+          src="/smileblack.jpg"
           alt='logo'
           width={400}
           height={278}
