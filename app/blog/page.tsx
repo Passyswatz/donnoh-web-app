@@ -11,7 +11,7 @@ export default function page() {
       
     </section>
 
-    <section className="ml-60 mr-20 pt-20 pb-10 pl-8 w-full h-auto grid grid-cols-1 item-center sm:grid-cols-4 gap-8 text-black">
+    <section className=" pt-20 pb-10 pl-8 w-full h-auto grid grid-cols-1 item-center sm:grid-cols-4 gap-8 text-black">
 
       
     <div className="  bg-white w-fit shadow-md shadow-gray-400 ">
