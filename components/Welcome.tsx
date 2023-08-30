@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Welcome = () => {
   return (
-    <div className="bg-white h-auto  pt-20 pl-20 pr-20 w-full ">
+    <div className="bg-white h-auto  pt-20 pl-20 pr-20 w-full text-black">
 
       {/* grid grid-cols-1 md:grid-cols-2 */}
       <div className="flex flex-col flex-wrap  item-center md:flex-row  item-center justify-center  pt-40">

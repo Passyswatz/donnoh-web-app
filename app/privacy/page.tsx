@@ -12,13 +12,13 @@ export default function page() {
     }
 
   return (
- <main className="w-full h-auto ">
+ <main className="w-full h-auto text-black ">
     <section className="w-full h-[134px] bg-[#00B4D8] flex justify-center item-center">
         <h1 className=" font-montserrat font-semibold text-5xl pt-10 text-white  ">Terms Of Service</h1>
 
     </section>
 
-    <section className="w-full h-auto bg-white ">
+    <section className="w-full h-auto bg-white text-black ">
         <div  className="m-auto p-20">
             <h3  className=" font-montserrat font-semibold pt-5 ">TERMS AND CONDITIONS</h3>
             <p className=" font-montserrat pt-3">Prime Team Digital Solutions (referred to as us or we) is a business in Nigeria. We operate the website www.donoh.org (the Website)
