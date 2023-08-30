@@ -23,7 +23,7 @@ const Navbar = () => {
 
     }
   return (
-    <header className="w-full h-[90px] bg-white border-b ">
+    <header className="w-full h-[90px] bg-white border-b text-black ">
         <nav className='md:max-w-[1480px]  max-w-[600px] m-auto w-full h-full flex justify-between items-center'>
         <Link href="/" className='flex justify-center items-center'>
             <Image 
@@ -35,7 +35,7 @@ const Navbar = () => {
         </Link>
 
 
-        <div className='hidden md:flex items-center'>
+        <div className='hidden md:flex items-center text-black'>
               <ul className='flex gap-4'>
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/about">About Us</Link></li>
@@ -69,7 +69,7 @@ const Navbar = () => {
        
 
     <div className={toggle?`absolute z-10 p-4 w-full px-8 bg-white md:hidden`: 'hidden'}>
-      <ul className=''>
+      <ul className='text-black'>
                <li  className='p-4 hover:bg-gray-100'><Link href="/" >Home</Link></li> 
                <li  className='p-4 hover:bg-gray-100'><Link  href="/about">About Us</Link></li> 
                <li  className='p-4 hover:bg-gray-100'><Link href="/contact">Contact Us</Link></li>
