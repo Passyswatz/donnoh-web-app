@@ -15,7 +15,7 @@ const Welcome = () => {
           height={531}
           className='object-contain  rounded-[10px] '/>
 
-          <div className=''>
+          <div className='pl-10'>
               <h2 className='font-montserrat font-semibold text-left text-4xl  '>Welcome to DonoH</h2>
 
               <p className=' font-montserrat text-left text-[#111010] font-semibold max-w-[400px]   '> DonoH is a Digital non-profit organization established to render
@@ -28,14 +28,16 @@ const Welcome = () => {
         <div className="flex  flex-col flex-wrap item-center  md:flex-row  item-center justify-center w-full h-auto pt-10">
             
       
+  
+        
         <Image 
           src="/medhelp.jpg"
           alt='logo'
           width={654}
           height={531}
-          className='object-contain rounded-[10px] '/>
+          className='object-contain rounded-[10px]  '/>
 
-          <div className='pt-20'>
+<div className='pt-20 pl-10'>
           <h2 className='font-montserrat font-semibold text-left text-4xl   max-w-[400px] '>Goals</h2>
           
 
@@ -50,6 +52,8 @@ const Welcome = () => {
           </ul>
          
           </div>
+
+          
 
           </div>
  

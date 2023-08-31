@@ -61,8 +61,8 @@ const Navbar = () => {
       containerStyle="bg-transparent px-5 py-2 border-2 border-[#C32C31] text-[#C32C31] font-bold hover:bg-[#C32C31] hover:text-white rounded-md mr-10"
   handleClick={signUp}/>
   </div>
-  <div className='md:hidden' onClick={handleClick}>
-      <FontAwesomeIcon icon={toggle?faXmark:faBars} className="w-8 h-8" />
+  <div className='md:hidden text-black' onClick={handleClick}>
+      <FontAwesomeIcon icon={toggle?faXmark:faBars} className="w-8 h-8 text-black" />
     </div>
  
         </nav>

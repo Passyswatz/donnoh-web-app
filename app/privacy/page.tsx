@@ -19,7 +19,7 @@ export default function page() {
     </section>
 
     <section className="w-full h-auto bg-white text-black ">
-        <div  className="m-auto p-20">
+        <div  className="m-auto p-20 text-black ">
             <h3  className=" font-montserrat font-semibold pt-5 ">TERMS AND CONDITIONS</h3>
             <p className=" font-montserrat pt-3">Prime Team Digital Solutions (referred to as us or we) is a business in Nigeria. We operate the website www.donoh.org (the Website)
 These are the Terms and Conditions which govern each use you make of the donation services provided through the Website.
@@ -61,20 +61,20 @@ governed by Laws of The Federal Republic of Nigeria and are subject to the
  exclusive jurisdiction of the Nigerian courts.</p>
         </div>
 
-        <div className='flex justify-center item-center  pb-4 '>
 
-        <CustomButton 
-      title="Decline"
+        
+      <div className='flex justify-center item center gap-10 relative pt-[4rem] pb-10'>
+      <CustomButton 
+      title="decline"
       btnType='submit'
-  containerStyle="bg-[#C32C31] px-5 py-2 border-2 gap-4 text-white border-[#C32C31] font-bold hover:bg-transparent hover:text-[#C32C31] rounded-md"
+  containerStyle="bg-[#C32C31] px-5 py-2 border-2 text-white border-[#C32C31] font-bold hover:bg-transparent hover:text-[#C32C31] rounded-md"
   handleClick={decline}/>
       <CustomButton 
-  title="Accept"
+  title="accept"
   btnType='submit'
       containerStyle="bg-transparent px-5 py-2 border-2 border-[#C32C31] text-[#C32C31] font-bold hover:bg-[#C32C31] hover:text-white rounded-md mr-10"
   handleClick={accept}/>
-
-        </div>
+      </div>
 
     </section>
 
