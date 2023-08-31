@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function page() {
   return (
     <main  className="bg-white text-black">
-    <section className="pt-10 pl-20">
+    <section className="pt-10 pl-5">
         <h2 className="font-montserrat font-semibold text-6xl text-left text-black">We are a team of <br/> <span  className='text-blue-500'>creators </span> and <span  className='text-blue-500'> innovators</span> </h2>
         <p className="font-montserrat ">DonoH is a Digital non-profit organization established to render the service of enabling patients to get adequate help from good-willed individuals and 
       organizations who make generous donations to assist them. This platform is solely non-governmental, developed by a team of tech ADA with the
